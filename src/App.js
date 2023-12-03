@@ -1,9 +1,17 @@
 import './App.css';
+import Navbar from './Component/Navbar';
+import Header from './Component/Header';
+
+
 
 function App() {
+  
   return (
     <>
-    <h1>hello vishal!!!!!</h1>
+      <div>
+        <Header />
+        <Navbar />
+      </div>
     </>
   );
 }

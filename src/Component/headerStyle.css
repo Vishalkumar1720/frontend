@@ -1,0 +1,39 @@
+/* Header.css */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .search button {
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .notification {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
